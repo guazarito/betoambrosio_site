@@ -1,0 +1,364 @@
+body {
+    padding-top: 80px;
+    padding-bottom: 100px;"
+}
+
+
+@font-face {
+    font-family: 'italo'; 
+    src: url('../fonts/ITALO_regular.eot');
+    src:
+    url('../fonts/ITALO_regular.ttf') format('truetype'),
+    url('../fonts/ITALO_regular.woff') format('woff'),
+    url('../fonts/ITALO_regular.eot?#iefix') format('embedded-opentype');
+}
+
+
+#site_head{
+	font-family:'italo'; 
+	color: black;
+	font-size: 55px;
+}
+
+
+
+#slider_header{
+	width: 100%;	
+	float: left;
+}
+
+
+.col-centered{float: none;margin: 0 auto;}
+
+
+
+#adm_control{
+    background-color: #ebebeb;
+    padding: 10px 5px;
+    margin: 0 0 20px 0;
+    border-radius: 10px;
+}
+
+
+#ablum_infos{
+    margin-bottom: 80px;
+}
+
+
+#cover{
+    float: left;
+    width: 150px;
+    height: 130px;
+    overflow: hidden;
+    margin-right: 30px;
+    padding: 5px;
+}
+
+#cover img{
+    width: 150px;
+}
+
+
+.edit_imgs_album{
+    margin: 0 auto;
+}
+
+.img-thumb-container{
+    
+    width: 270px;
+    height: auto;
+  
+    margin-bottom: 70px;
+    line-height: 1.42857143;
+    background-color: #fff;
+	border: 2px solid #ddd;
+    border-radius: 5px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    box-shadow: 0px 0px 7px  #fff;
+}
+
+.img-thumb{
+    overflow: hidden;
+    max-width: 270px;
+    height: 185px;
+background-color: #000;
+}
+
+
+.img_capa_album img{
+    background-color: #000;
+	position: relative;
+    left: -10%;
+	
+}
+
+.s_titulo_album{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding: 6px 5px;
+    opacity: 0.6;
+}
+
+
+.s_titulo_album a{
+     text-decoration: none;
+     color: white;
+     vertical-align: middle;
+ }
+
+
+.navbar-brand a{
+	text-decoration: none;
+	color: white;
+}
+
+
+.navbar-brand {
+	list-style: none;
+}
+
+
+#sidebar ul{
+    padding-top: 80px;
+}
+
+
+#sidebar ul li a{
+    font-family:"Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+p.titulo_album{
+    background-color: #999999;
+    width: 300px;
+    margin: auto;
+    font-weight: bold;
+    padding: 1px 5px;
+    color: #e5e5e5;
+    margin-top: 5px;
+}
+
+
+p.titulo_album:hover{
+    color: #fbf069;
+    text-decoration: underline;
+}
+
+.img-thumb-container:hover, .titulo_album:hover,.titulo_album a:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+.img_edit_albuns{
+    width: 324px;
+    height: 216px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.img_edit{
+    width: 180px;
+    height: 120px;
+    overflow: hidden;
+    margin: auto;
+}
+
+
+.file-wrapper {
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+
+.file-wrapper input {
+    cursor: pointer;
+    font-size: 100px;
+    height: 100%;
+    filter: alpha(opacity=1);
+    -moz-opacity: 0.01;
+    opacity: 0.01;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.file-wrapper2 {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+
+.qtde_imgs{
+    color: #9d9d9d;
+}
+
+#ablum_infos label{
+   font-weight: 400;
+    color: #8c8c8c;
+}
+
+.editable_field, #cbo_categorias{
+    font-size: 20px;
+    color: black;
+}
+
+#cbo_categorias:hover{
+    color: #ec9d1e;
+}
+
+.lbl_capa_album,.lbl_selecionar{
+    font-size: 13px;
+    color: #8c8c8c;
+    font-family: "Trebuchet MS";
+}
+
+.lbl_capa_album{
+    margin-bottom: 2px;
+}
+
+
+p.titulo_album:hover{
+    color: #fbf069;
+    text-decoration: underline;
+}
+
+.lapis_edit{
+    position: absolute;
+    margin-left: 11px;
+    visibility: hidden;
+    opacity: 0.8;
+}
+
+p.categoria_album{
+    font-family: Tahoma;
+    width: 300px;
+    color: #8c8c8c;
+    margin:auto;
+}
+
+#menu_adm{
+    background-color: black;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+.nav{
+    padding: 15px 0;
+    font-size: 20px;
+    font-family: "Trebuchet MS";
+}
+
+#capas_usadas{
+    position: relative;
+    border: 2px solid black;
+    padding: 20px 20px;
+}
+
+a.editable_field_ {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.thumb_albuns{
+    margin: 10px;
+    max-width: 30%;
+    height: auto;
+}
+
+
+.s_album_titulo {
+	 font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+
+.s_categoria_titulo{
+	font-family:"italo";
+	margin-bottom: 30px;
+	color: #c0c0c0;
+	font-size: 50px;
+}
+
+
+
+@media only screen and (min-width : 320px) and (max-width : 900px) {
+	
+	.s_album_titulo  {
+	 	padding-top: 20px;
+	}
+	
+	.s_categoria_titulo{
+		padding-bottom: 20px;
+	}
+	
+	#facebook{
+		margin-top: 25px;
+	}
+
+}
+
+.s_album_descr{
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: graytext;
+	font-size: 1.5em;
+}
+
+.s_album_categoria{
+	font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1em;
+}
+
+#imgs_sobre{
+	height: 100%;
+	width: 100%;
+	border: 2px dashed #c0c0c0;
+	padding: 5px;
+	margin: 10px 5px 0 15px;
+}
+
+p.text-muted{
+	padding: 3px 0;
+}
+
+.project_name{
+	font-family:"Kaushan Script";
+	font-size: 1.7em;
+}
+
+#imagensGaleria{
+	margin-bottom: 50px;
+	padding-top: 50px;
+}
+
+
+.full-spectrum .sp-palette {
+max-width: 200px;
+}
+
+
+#s_infos_album{
+	margin: 2px 0 20px 15px;
+	
+}
+
+
+footer{padding:25px 0;text-align:center; background-color: #fff;}
+footer span.copyright{line-height:40px;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;text-transform:none}
+footer ul.quicklinks{margin-bottom:0;line-height:40px;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;text-transform:none}
+ul.social-buttons{margin-bottom:0}
+ul.social-buttons li a{display:block;background-color:#222;height:40px;width:40px;border-radius:100%;font-size:20px;line-height:40px;color:#fff;outline:0;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}
+ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a:active{background-color:#fed136}
+.btn:focus,.btn:active,.btn.active,.btn:active:focus{outline:0}
+.portfolio-modal 
+.modal-content{border-radius:0;background-clip:border-box;-webkit-box-shadow:none;box-shadow:none;border:0;min-height:100%;padding:100px 0;text-align:center}
+
+

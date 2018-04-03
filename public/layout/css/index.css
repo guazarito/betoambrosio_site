@@ -1,0 +1,199 @@
+@CHARSET "UTF-8";
+
+@font-face {
+    font-family: 'italo'; 
+    src: url('../fonts/ITALO_regular.eot');
+    src:
+    url('../fonts/ITALO_regular.ttf') format('truetype'),
+    url('../fonts/ITALO_regular.woff') format('woff'),
+    url('../fonts/ITALO_regular.eot?#iefix') format('embedded-opentype');
+}
+
+
+[class*="col-"]{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+#imgs_sobre{
+	overflow: hidden;
+}
+
+.img_sobre{
+	max-width: 95%;
+	margin: 0 auto;
+	}
+	
+.img_sobre_v{
+	max-width: 60%;
+	margin: 0 auto;
+}
+
+.sobre_pt1{
+	padding: 15px 20px;
+}
+
+@media only screen and (min-width : 1100px){
+	.sobre_pt1{
+		padding: 15px 0 0 0;
+	}
+}
+
+
+
+#mes_palestra{
+	font-size: 15px;
+	font-family: Montserrat;
+	font-weight: bold;
+
+}
+
+#dia_palestra{
+	font-size: 29px;
+	font-family: Montserrat;
+	font-weight: bold;
+	
+}
+
+#ano_palestra{
+	font-size: 12px;
+	font-family: Montserrat;
+}
+
+
+
+
+#local_palestra{
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+#hora_palestra{
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 15px;
+	margin-top: 3px;
+}
+
+
+#data_palestra{
+	background-color: #fed136; 
+	height: 80px;
+}
+
+
+#info_palestra{
+	padding: 5px 10px; 
+	height: 80px; 
+	overflow: hidden;
+}
+
+.palestra_content{
+	margin-bottom: 20px;
+}
+
+
+
+.veja_mais{
+	
+	float: right;
+	opacity: 0.4;
+	
+}
+
+
+
+
+@media only screen and (max-width : 991px){
+	
+	#info_palestra{
+		padding: 5px 10px; 
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	
+	#mes_palestra{
+		width: 30%;
+		float: left;
+		margin-left: 10%;
+		font-size: 30px;
+		margin-top: 20px;
+		color: gray;
+	}
+
+	#dia_palestra{
+		width: 20%;
+		float: left;
+		font-size: 50px;
+		margin-top: 5px;
+		font-weight: bold;
+	}
+
+	#ano_palestra{
+		width: 30%;
+		float: left;
+		color: gray;
+		font-size: 30px;
+		margin-top: 20px;
+	}
+	
+	.demo-gallery {
+		float: left;
+		margin-bottom: 20px;
+	}
+
+}
+
+
+
+/* css da parte das imagens da home: */
+
+	.demo-gallery {
+		float: left;
+	}
+
+
+	.demo-gallery ul{
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+	
+	.demo-gallery ul li{
+		display: inline;
+		float: left;
+		width: 200px;
+		height: 130px;
+		overflow: hidden;
+		margin: 0 3px 3px 0;
+		border: 0px solid #E0E0E0;
+	}
+	
+	.demo-gallery ul li a img
+	{
+		height:100%;
+		width:100%;
+	}
+	
+            .demo-gallery > ul > li a:hover > img {
+              -webkit-transform: scale3d(1.1, 1.1, 1.1);
+              transform: scale3d(1.1, 1.1, 1.1);
+            }
+			
+			            .demo-gallery > ul > li a .demo-gallery-poster > img {
+              left: 50%;
+              margin-left: -10px;
+              margin-top: -10px;
+              opacity: 0;
+              position: absolute;
+              top: 50%;
+              -webkit-transition: opacity 0.3s ease 0s;
+              -o-transition: opacity 0.3s ease 0s;
+              transition: opacity 0.3s ease 0s;
+            }
+
+

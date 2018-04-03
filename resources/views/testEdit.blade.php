@@ -1,0 +1,7 @@
+
+	
+<html>		
+		{{$value}}
+</html>	  
+			 
+			 
